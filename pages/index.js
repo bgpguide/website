@@ -52,7 +52,7 @@ export default function Home() {
 					</div>
 					<div className="pt-8 relative">
 						<input value={query} onChange={(e) => setQuery(e.target.value)} onFocus={() => setIsFocused(true)} onBlur={() => setIsFocused(false)} type="search" className="block w-full rounded-lg p-4 text-sm font-medium border border-gray-200/[75%] focus:outline-none focus:border-blue-600 transition duration-150" placeholder="E.g. bird bgp communities" />
-						{isFocused && <div className="block w-full bg-white rounded-lg border border-gray-200/[75%] mt-4 absolute flex flex-col gap-2 p-2 max-h-[16rem] overflow-y-auto white-bg-scrollkit">
+						{isFocused && <div className="block w-full bg-white rounded-lg border border-gray-200/[75%] mt-4 absolute flex flex-col gap-2 p-2 max-h-[16rem] overflow-y-auto white-bg-scrollkit z-[20]">
 							{(filteredResults.length > 0) ? filteredResults.map((result, i) => (
 								<a key={i} href="#" className="p-2 text-sm hover:bg-gray-50 rounded-lg flex gap-4 items-center">
 									<span>{result.name}</span>
