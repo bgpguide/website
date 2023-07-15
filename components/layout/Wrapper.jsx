@@ -59,10 +59,10 @@ export function MobileMenu({isOpen}) {
     return (
         <div className={`fixed top-0 left-0 w-full bg-white z-[45] rounded-b-lg shadow-lg px-6 pt-20 pb-6 ${isOpen ? 'translate-y-0' : '-translate-y-full'} transition duration-[200ms] ease-in-out`}>
             <div className="flex flex-col gap-1 mobile-nav">
-                <a href="#">
+                <Link href="/guides">
                     Guides
                     <ChevronRightIcon className="h-4 w-4" />
-                </a>
+                </Link>
                 <a href="#">
                     Resources
                     <ChevronRightIcon className="h-4 w-4" />
