@@ -43,7 +43,7 @@ export default function Home() {
 	return (
 		<Wrapper>
 			<div className="h-[32rem] bg-gray-100/[75%] flex items-center">
-				<div className="max-w-5xl mx-auto px-8">
+				<div className="max-w-5xl mx-auto px-6">
 					<div className="text-center">
 						<h1 className="text-5xl text-blue-600 font-bold">Welcome to bgp.guide!</h1>
 						<p className="text-lg font-semibold text-gray-800 mt-6">Search guides to help with your entry into the world of global networking.</p>
@@ -67,14 +67,14 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="container">
-				<div className="bg-white p-4 rounded-lg border border-gray-200/[75%] -mt-[5.5rem] grid grid-cols-5">
-					<div className="col-span-1 flex items-center">
-						<a href="#" className="text-sky-500 text-sm flex gap-1 items-center hover:opacity-80">
+				<div className="bg-white p-4 rounded-lg border border-gray-200/[75%] -mt-[5.5rem] grid grid-cols-1 md:grid-cols-5 gap-4">
+					<div className="md:col-span-1 flex items-center">
+						<a href="#" className="text-sky-500 md:text-sm flex gap-1 items-center hover:opacity-80">
 							Configuration guides
 							<ArrowRightIcon className="h-4 w-4 mt-[1px]" />
 						</a>
 					</div>
-					<div className="col-span-4 flex flex-nowrap gap-4 overflow-x-auto white-bg-scrollkit">
+					<div className="md:col-span-4 flex flex-nowrap gap-4 overflow-x-auto white-bg-scrollkit">
 						<Article
 							authorImgs={[
 								'https://avatars.githubusercontent.com/u/8601173?v=4',
@@ -107,9 +107,9 @@ export default function Home() {
 						/>
 					</div>
 				</div>
-				<div className="bg-white p-4 rounded-lg border border-gray-200/[75%] grid grid-cols-5 mt-8">
+				<div className="bg-white p-4 rounded-lg border border-gray-200/[75%] grid grid grid-cols-1 md:grid-cols-5 gap-4 mt-8">
 					<div className="col-span-1 flex items-center">
-						<a href="#" className="text-sky-500 text-sm flex gap-1 items-center hover:opacity-80">
+						<a href="#" className="text-sky-500 md:text-sm flex gap-1 items-center hover:opacity-80">
 							Resources
 							<ArrowRightIcon className="h-4 w-4 mt-[1px]" />
 						</a>
@@ -147,9 +147,9 @@ export default function Home() {
 						/>
 					</div>
 				</div>
-				<div className="bg-white p-4 rounded-lg border border-gray-200/[75%] grid grid-cols-5 mt-8">
+				<div className="bg-white p-4 rounded-lg border border-gray-200/[75%] grid grid-cols-5 grid grid-cols-1 md:grid-cols-5 gap-4 mt-8">
 					<div className="col-span-1 flex items-center">
-						<a href="#" className="text-sky-500 text-sm flex gap-1 items-center hover:opacity-80">
+						<a href="#" className="text-sky-500 md:text-sm flex gap-1 items-center hover:opacity-80">
 							Documentation
 							<ArrowRightIcon className="h-4 w-4 mt-[1px]" />
 						</a>
@@ -201,7 +201,7 @@ export default function Home() {
 
 export function Article({authorImgs, title, excerpt, link}) {
 	return (
-		<a href="#" className="p-4 rounded-lg border border-gray-200/[75%] group w-[25%] flex-shrink-0">
+		<a href="#" className="p-4 rounded-lg border border-gray-200/[75%] group w-[75%] md:w-[25%] flex-shrink-0">
 			<div className="flex gap-1.5 items-center">
 				{authorImgs.map((img, i) => (
 					<img src={img} className="h-5 w-5 rounded-full" />
