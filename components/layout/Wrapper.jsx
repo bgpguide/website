@@ -1,5 +1,6 @@
 import { Bars3Icon, ChevronRightIcon, XMarkIcon } from "@heroicons/react/24/solid"
 import { SiGithub } from "@icons-pack/react-simple-icons"
+import Link from "next/link";
 import { useState } from "react"
 
 export function Wrapper({children}) {
@@ -13,7 +14,10 @@ export function Wrapper({children}) {
             <div className="fixed top-0 left-0 w-full bg-white/[50%] backdrop-blur-sm border-b border-gray-200/[75%] z-[50]">
                 <div className="container">
                     <div className="flex gap-4 items-center">
-                        <p className="text-lg font-medium py-5 md:py-0">bgp.guide</p>
+                        <Link href="/" className="flex gap-2 items-center">
+                            <img src="/vendor/logo.png" className="h-7 w-7" />
+                            <p className="text-lg font-medium py-5 md:py-0">bgp.guide</p>
+                        </Link>
                         <div className="hidden md:flex flex-grow justify-center nav">
                             <a href="#">Guides</a>
                             <a href="#">Resources</a>
