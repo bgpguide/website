@@ -18,6 +18,7 @@
 
 .white-bg-scrollkit::-webkit-scrollbar {
 	width: 22px;
+	height: 22px;
     background-color: #fff;
 }
   

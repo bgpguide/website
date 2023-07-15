@@ -74,7 +74,7 @@ export default function Home() {
 							<ArrowRightIcon className="h-4 w-4 mt-[1px]" />
 						</a>
 					</div>
-					<div className="col-span-4 grid grid-cols-4 gap-4">
+					<div className="col-span-4 flex flex-nowrap gap-4 overflow-x-auto white-bg-scrollkit">
 						<Article
 							authorImgs={[
 								'https://avatars.githubusercontent.com/u/8601173?v=4',
@@ -114,7 +114,7 @@ export default function Home() {
 							<ArrowRightIcon className="h-4 w-4 mt-[1px]" />
 						</a>
 					</div>
-					<div className="col-span-4 grid grid-cols-4 gap-4">
+					<div className="col-span-4 flex flex-nowrap gap-4 overflow-x-auto white-bg-scrollkit">
 						<Article
 							authorImgs={[
 								'https://avatars.githubusercontent.com/u/8601173?v=4',
@@ -154,9 +154,10 @@ export default function Home() {
 							<ArrowRightIcon className="h-4 w-4 mt-[1px]" />
 						</a>
 					</div>
-					<div className="col-span-4 grid grid-cols-4 gap-4">
+					<div className="col-span-4 flex flex-nowrap gap-4 overflow-x-auto white-bg-scrollkit">
 						<Article
 							authorImgs={[
+								'https://cdn.discordapp.com/avatars/200554012871753728/87a0f879af139fe2ac513b68ada091ff.webp?size=128',
 								'https://avatars.githubusercontent.com/u/8601173?v=4',
 								'https://avatars.githubusercontent.com/u/47786934?v=4'
 							]}
@@ -184,6 +185,13 @@ export default function Home() {
 							title="quagga archive"
 							excerpt="How to configure bird2 for a BGP session and filter properly."
 						/>
+						<Article
+							authorImgs={[
+								'https://cdn.discordapp.com/avatars/205865753688145920/4b6787fcb607b9bc12e7b88b423ec2b4.webp?size=128',
+							]}
+							title="quagga archive"
+							excerpt="How to configure bird2 for a BGP session and filter properly."
+						/>
 					</div>
 				</div>
 			</div>
@@ -193,7 +201,7 @@ export default function Home() {
 
 export function Article({authorImgs, title, excerpt, link}) {
 	return (
-		<a href="#" className="p-4 rounded-lg border border-gray-200/[75%] group">
+		<a href="#" className="p-4 rounded-lg border border-gray-200/[75%] group w-[25%] flex-shrink-0">
 			<div className="flex gap-1.5 items-center">
 				{authorImgs.map((img, i) => (
 					<img src={img} className="h-5 w-5 rounded-full" />
