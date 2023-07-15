@@ -20,7 +20,7 @@ export function Wrapper({children}) {
                             <a href="#">Documentation</a>
                             <a href="#">Donate</a>
                         </div>
-                        <a href="#" className="hidden md:block text-sm flex gap-2 items-center px-3 py-6 border-b border-transparent hover:border-black text-gray-700 hover:text-black">
+                        <a href="#" className="hidden md:flex text-sm flex gap-2 items-center px-3 py-6 border-b border-transparent hover:border-black text-gray-700 hover:text-black">
                             GitHub
                             <SiGithub className="h-4 w-4" />
                         </a>
