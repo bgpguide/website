@@ -125,7 +125,7 @@ export default function Home() {
 						/>
 						<Article
 							authorImgs={[
-								'https://avatars.githubusercontent.com/u/8601173?v=4',
+								'https://cdn.discordapp.com/avatars/453919882812063754/5166b058c8d64ee2f483dd2ec00ce247.webp?size=80',
 							]}
 							title="bgp.guide RTR server"
 							excerpt="How to configure bird2 for a BGP session and filter properly."
@@ -140,7 +140,8 @@ export default function Home() {
 						<Article
 							authorImgs={[
 								'https://avatars.githubusercontent.com/u/8601173?v=4',
-								'https://avatars.githubusercontent.com/u/47786934?v=4'
+								'https://avatars.githubusercontent.com/u/47786934?v=4',
+								'https://cdn.discordapp.com/avatars/453919882812063754/5166b058c8d64ee2f483dd2ec00ce247.webp?size=80'
 							]}
 							title="ASN registration"
 							excerpt="How to configure bird2 for a BGP session and filter properly."
@@ -193,6 +194,19 @@ export default function Home() {
 							excerpt="How to configure bird2 for a BGP session and filter properly."
 						/>
 					</div>
+				</div>
+			</div>
+			<div className="container pt-16">
+				<p className="text-lg font-semibold">Sponsors</p>
+				<div className="flex flex-col md:flex-row gap-8 md:gap-4 justify-between items-center pt-6">
+					<a href="https://ifog.ch/" target="_blank" rel="noreferrer"><img src="/vendor/logos/ifog.png" className="h-10" /></a>
+					<a href="https://pdxnet.co.uk/" target="_blank" rel="noreferrer"><img src="/vendor/logos/pdx.svg" className="h-10" /></a>
+					<a href="https://accuristechnologies.ca/" target="_blank" rel="noreferrer"><img src="/vendor/logos/accuris.svg" className="h-10" /></a>
+					<a href="https://kttcarrier.sj.ax/" target="_blank" rel="noreferrer"><img src="/vendor/logos/ktt.svg" className="h-8" /></a>
+					<a href="https://github.com/sponsors/bgpguide" target="_blank" rel="noreferrer" className="text-xs font-medium text-sky-500 hover:opacity-80 flex items-center gap-1">
+						This could be you!
+						<ChevronRightIcon className="h-3 w-3" />
+					</a>
 				</div>
 			</div>
 		</Wrapper>
