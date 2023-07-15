@@ -1,4 +1,4 @@
-import { Bars3Icon, ChevronRightIcon, XMarkIcon } from "@heroicons/react/24/solid"
+import { ArrowUpRightIcon, Bars3Icon, ChevronRightIcon, XMarkIcon } from "@heroicons/react/24/solid"
 import { SiGithub } from "@icons-pack/react-simple-icons"
 import Link from "next/link";
 import { useState } from "react"
@@ -22,7 +22,10 @@ export function Wrapper({children}) {
                             <a href="#">Guides</a>
                             <a href="#">Resources</a>
                             <a href="#">Documentation</a>
-                            <a href="#">Donate</a>
+                            <a href="https://github.com/sponsors/bgpguide" target="_blank" rel="noreferrer" className="flex items-center gap-1">
+                                Donate
+                                <ArrowUpRightIcon className="h-3.5 w-3.5 mt-[1px]" />
+                            </a>
                         </div>
                         <a href="#" className="hidden md:flex gap-2 items-center text-sm py-1 px-3 border border-gray-200/[75%] rounded-full bg-white/[10%] backdrop-blur hover:bg-gray-300/[20%] transition duration-150">
                             GitHub
