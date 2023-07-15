@@ -19,7 +19,7 @@ export function Wrapper({children}) {
                             <p className="text-lg font-medium">bgp.guide</p>
                         </Link>
                         <div className="hidden md:flex flex-grow justify-center gap-3 nav">
-                            <a href="#">Guides</a>
+                            <Link href="/guides">Guides</Link>
                             <a href="#">Resources</a>
                             <a href="#">Documentation</a>
                             <a href="https://github.com/sponsors/bgpguide" target="_blank" rel="noreferrer" className="flex items-center gap-1">
@@ -47,7 +47,7 @@ export function Wrapper({children}) {
                 <div className="flex items-center gap-4">
                     <p className="text-xs text-gray-500">Copyleft bgp.guide contributors.</p>
                     <div className="flex flex-grow justify-end">
-                        <p className="text-xs text-gray-500">a <a target="_blank" href="https://kjartann.is/" className="text-sky-500 font-medium underline hover:opacity-80">kjartann.is</a> website.</p>
+                        <p className="text-xs text-gray-500">a <a target="_blank" rel="noreferrer" href="https://kjartann.is/" className="text-sky-500 font-medium underline hover:opacity-80">kjartann.is</a> website.</p>
                     </div>
                 </div>
             </div>
