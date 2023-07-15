@@ -211,7 +211,7 @@ export default function Home() {
 			</div>
 			<div className="container pt-16">
 				<p className="text-lg font-semibold">News</p>
-				<div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-6">
+				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-6">
 					<a href="#" className="bg-white rounded-lg p-4 border border-gray-200/[75%] group">
 						<p className="text-sm font-medium text-gray-800">Website release!</p>
 						<p className="text-xs text-gray-700 mt-1">The bgp.guide website is now finally released and is ready for visitor traffic! Read up on the process of getting it out in this short news post...</p>
