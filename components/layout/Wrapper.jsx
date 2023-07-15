@@ -2,7 +2,7 @@ import { SiGithub } from "@icons-pack/react-simple-icons"
 
 export const Wrapper = ({children}) => (
     <div className="min-h-screen flex flex-col">
-        <div className="fixed top-0 left-0 w-full bg-white/[50%] backdrop-blur-sm border-b border-gray-200/[75%]">
+        <div className="fixed top-0 left-0 w-full bg-white/[50%] backdrop-blur-sm border-b border-gray-200/[75%] z-[50]">
             <div className="container">
                 <div className="flex gap-4 items-center">
                     <p className="text-lg font-medium">bgpguide</p>
