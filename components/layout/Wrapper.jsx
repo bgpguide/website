@@ -13,7 +13,7 @@ export function Wrapper({children}) {
             <div className="fixed top-0 left-0 w-full bg-white/[50%] backdrop-blur-sm border-b border-gray-200/[75%] z-[50]">
                 <div className="container">
                     <div className="flex gap-4 items-center">
-                        <p className="text-lg font-medium py-5 md:py-0">bgpguide</p>
+                        <p className="text-lg font-medium py-5 md:py-0">bgp.guide</p>
                         <div className="hidden md:flex flex-grow justify-center nav">
                             <a href="#">Guides</a>
                             <a href="#">Resources</a>
