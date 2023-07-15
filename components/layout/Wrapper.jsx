@@ -27,7 +27,7 @@ export function Wrapper({children}) {
                                 <ArrowUpRightIcon className="h-3.5 w-3.5 mt-[1px]" />
                             </a>
                         </div>
-                        <a href="#" className="hidden md:flex gap-2 items-center text-sm py-1 px-3 border border-gray-200/[75%] rounded-full bg-white/[10%] backdrop-blur hover:bg-gray-300/[20%] transition duration-150">
+                        <a href="https://github.com/bgpguide" target="_blank" rel="noreferrer" className="hidden md:flex gap-2 items-center text-sm py-1 px-3 border border-gray-200/[75%] rounded-full bg-white/[10%] backdrop-blur hover:bg-gray-300/[20%] transition duration-150">
                             GitHub
                             <SiGithub className="h-4 w-4" />
                         </a>
