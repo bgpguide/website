@@ -22,9 +22,12 @@ export const Wrapper = ({children}) => (
         <div className="flex-grow">
             {children}
         </div>
-        <div className="bg-white">
-            <div className="container py-4">
+        <div className="container py-12">
+            <div className="flex items-center gap-4">
                 <p className="text-xs text-gray-500">Copyleft bgp.guide contributors.</p>
+                <div className="flex flex-grow justify-end">
+                    <p className="text-xs text-gray-500">a <a target="_blank" href="https://kjartann.is/" className="text-sky-500 font-medium underline hover:opacity-80">kjartann.is</a> website.</p>
+                </div>
             </div>
         </div>
     </div>
