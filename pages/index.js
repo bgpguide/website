@@ -68,7 +68,7 @@ export default function Home() {
 			</div>
 			<div className="container">
 				<div className="bg-white p-4 rounded-lg border border-gray-200/[75%] -mt-[5.5rem] grid grid-cols-1 md:grid-cols-5 gap-4">
-					<div className="md:col-span-1 flex items-center">
+					<div className="md:col-span-1 flex items-center p-2">
 						<a href="#" className="text-sky-500 md:text-sm flex gap-1 items-center hover:opacity-80">
 							Configuration guides
 							<ArrowRightIcon className="h-4 w-4 mt-[1px]" />
@@ -108,7 +108,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="bg-white p-4 rounded-lg border border-gray-200/[75%] grid grid grid-cols-1 md:grid-cols-5 gap-4 mt-8">
-					<div className="col-span-1 flex items-center">
+					<div className="col-span-1 flex items-center p-2">
 						<a href="#" className="text-sky-500 md:text-sm flex gap-1 items-center hover:opacity-80">
 							Resources
 							<ArrowRightIcon className="h-4 w-4 mt-[1px]" />
@@ -148,7 +148,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="bg-white p-4 rounded-lg border border-gray-200/[75%] grid grid-cols-5 grid grid-cols-1 md:grid-cols-5 gap-4 mt-8">
-					<div className="col-span-1 flex items-center">
+					<div className="col-span-1 flex items-center p-2">
 						<a href="#" className="text-sky-500 md:text-sm flex gap-1 items-center hover:opacity-80">
 							Documentation
 							<ArrowRightIcon className="h-4 w-4 mt-[1px]" />
