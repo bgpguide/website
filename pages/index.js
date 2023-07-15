@@ -209,6 +209,25 @@ export default function Home() {
 					</a>
 				</div>
 			</div>
+			<div className="container pt-16">
+				<p className="text-lg font-semibold">News</p>
+				<div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-6">
+					<a href="#" className="bg-white rounded-lg p-4 border border-gray-200/[75%] group">
+						<p className="text-sm font-medium text-gray-800">Website release!</p>
+						<p className="text-xs text-gray-700 mt-1">The bgp.guide website is now finally released and is ready for visitor traffic! Read up on the process of getting it out in this short news post...</p>
+						<p className="text-sm text-sky-500 font-medium flex gap-1 items-center mt-2">
+							Read more
+							<ChevronRightIcon className="h-3 w-3 group-hover:translate-x-[1px] transition duration-150" />
+						</p>
+					</a>
+					<div className="bg-white rounded-lg p-4 border border-gray-200/[75%] flex items-center justify-center">
+						<a href="#" className="text-sm text-sky-500 font-medium flex gap-1 items-center group">
+							Read all
+							<ChevronRightIcon className="h-3 w-3 group-hover:translate-x-[1px] transition duration-150" />
+						</a>
+					</div>
+				</div>
+			</div>
 		</Wrapper>
 	)
 }
